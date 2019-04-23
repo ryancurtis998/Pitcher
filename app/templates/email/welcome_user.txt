@@ -1,0 +1,4 @@
+Hello {{user.username}}
+Thank you for registering  for  Picher!!
+Its your time to explore and perfect your pitching skills.
+Enjoy
