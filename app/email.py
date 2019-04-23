@@ -8,4 +8,4 @@ def mail_message(subject,template,to,**kwargs):
     email = Message(subject, sender=sender_email, recipients=[to])
     email.body= render_template(template + ".txt",**kwargs)
     email.txt = render_template(template + ".txt",**kwargs)
-mail.send(email)
+    mail.send(email)
