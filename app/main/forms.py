@@ -15,11 +15,11 @@ class PitchForm(FlaskForm):
     post = StringField('Your name',validators=[Required()])
     body = TextAreaField('Pitch')
     category = SelectField('Pick Category',
-
+    
     choices=[('INTERVIEW', 'INTERVIEW'),
     ('PRODUCT', 'PRODUCT'),
     ('PROMOTION', 'PROMOTION'),
     ('PICK-UP', 'PICK-UP'),
     ('COMEDY', 'COMEDY')],
     validators=[Required()])
-submit = SubmitField('Pitch')
+    submit = SubmitField('Pitch')
